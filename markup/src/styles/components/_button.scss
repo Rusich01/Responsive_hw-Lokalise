@@ -1,0 +1,63 @@
+.btn {
+  display: inline-block;
+  width: 120px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 45px;
+  text-align: center;
+  color: $base-color-black;
+}
+.bt-left:hover {
+  box-shadow: -2px 2px 5px $base-color-black;
+}
+.btn-Try-it {
+  background: $base-color-orange;
+  color: $base-color-white;
+  margin-left: 10px;
+}
+.bt-right:hover {
+  box-shadow: 2px 2px 5px $base-color-black;
+}
+.section-btn-top {
+  margin-top: 53px;
+  margin-bottom: 12px;
+}
+.btn-main-try {
+  width: 160px;
+  line-height: 60px;
+  background: $base-color-orange;
+  color: $base-color-white;
+}
+.btn-main-book {
+  width: 160px;
+  line-height: 60px;
+  background: $base-color-white;
+  color: $base-color-black;
+}
+.btn-bird {
+  color: $base-color-white;
+  background: $base-color-orange;
+  border: transparent;
+  width: 193px;
+  display: block;
+  margin: 0 auto;
+  line-height: 60px;
+
+  &:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+    color: $base-color-black;
+  }
+}
+.btn-bottom-text {
+  width: 160px;
+  background: $base-color-black;
+  line-height: 60px;
+  color: $base-color-white;
+  &:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+    color: $base-color-orange;
+  }
+}
